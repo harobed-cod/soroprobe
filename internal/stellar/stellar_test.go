@@ -101,7 +101,7 @@ func TestDataKeyDurabilityChangesTheKey(t *testing.T) {
 }
 
 // benchmarkKey keeps the key built by BenchmarkDataKey observable, so the
-// compiler cannot optimise the call away.
+// compiler cannot optimize the call away.
 var benchmarkKey xdr.LedgerKey
 
 func BenchmarkDataKey(b *testing.B) {
